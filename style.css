@@ -16,6 +16,12 @@ body,html {
     height: 100%;
 }
 
+#main {
+    opacity: 0;
+    filter: blur(100px);
+    transition: 2s;
+}
+
 #header {
     text-align: center;
     font-size: 50px;
@@ -53,7 +59,7 @@ body,html {
     max-width: 1800px;
     display: inline-block;
     font-size: 6em;
-    background-color: rgba(196,178,178,.9);
+    background-color: rgba(66,255,0,0.5);
     backdrop-filter: blur(.2em) saturate(9);
     padding: 0.8em 0;
     color: #03036f;

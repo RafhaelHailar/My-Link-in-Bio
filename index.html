@@ -28,69 +28,63 @@
                     quantity: 2.00,
                     backgroundAlpha: 0.00
                 });
+
+                setTimeout(function() {
+                    let main = document.getElementById("main");
+                    main.style.opacity = 1;
+                    main.style.filter = "blur(0)"
+                },1000);
             });
         </script>
     </head>
     <body>
+
+        <!--
+            This is a twitter bio-in-link webpage
+            I watched in youtube how to do it
+            so I try it and yeah
+            I just make a few changes like
+            instead of using display flex and other thingy thingos
+            I just use css properties I've learned from my bootcamp
+            Kodego.
+            I don't really know anything about design though
+            I just like making games(those games that doesn't have any improved grapics yet like tic tac toe or pacman)
+        -->
+
         <div id="vantamol"></div>
-        <div id="header">
-            <img src="./images/mamen.png" alt="" style="height: 10em;">
-            <h1>
-                <a href="#">@rafhaelhailar</a>
-            </h1>
+        <div id="main">
+            <div id="header">
+                <img src="./images/mamen.png" alt="" style="height: 10em;">
+                <h1>
+                    <a href="#">@rafhaelhailar</a>
+                </h1>
+            </div>
+            <div id="socials">
+                <div class="element">
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>
+                        My Official Website
+                    </a>
+                </div>
+                <div class="element">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                        Facebook
+                    </a>
+                </div>
+                <div class="element">
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                        Youtube
+                   </a>
+                </div>
+                <div class="element">
+                    <a href="#">
+                        <i class="fa-brands fa-github"></i>
+                        Github
+                    </a>
+                </div>
+            </div>
         </div>
-        <div id="socials">
-            <div class="element">
-                <a href="#">
-                    <i class="fa-solid fa-house"></i>
-                    My Official Website
-                </a>
-            </div>
-            <div class="element">
-                <a href="#">
-                    <i class="fa-brands fa-facebook"></i>
-                    Facebook
-                </a>
-            </div>
-            <div class="element">
-                <a href="#">
-                    <i class="fa-brands fa-youtube"></i>
-                    Youtube
-               </a>
-            </div>
-            <div class="element">
-                <a href="#">
-                    <i class="fa-brands fa-github"></i>
-                    Github
-                </a>
-            </div>
-        </div>
-        <!-- <ul>
-            <li>
-                <a href="#">
-                    <i class="fa-solid fa-house"></i>
-                    My Official Website
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa-brands fa-facebook"></i>
-                    Facebook
-                </a>
-            </li>
-            <li>
-               <a href="#">
-                    <i class="fa-brands fa-youtube"></i>
-                    Youtube
-               </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa-brands fa-github"></i>
-                    Github
-                </a>
-            </li>
-        </ul> -->
-       
     </body>
 </html>
