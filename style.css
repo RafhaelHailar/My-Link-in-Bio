@@ -18,6 +18,11 @@ body,html {
     margin-top: .09em;
 }
 
+#header h1 a{
+    max-width: 700px;
+    font-size: 1em;
+}
+
 #socials {
     margin-top: 30em;
     width: 100%;
