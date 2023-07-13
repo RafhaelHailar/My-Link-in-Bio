@@ -6,8 +6,33 @@
         <title>Rafhael Hailar - Links</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" type="text/css" href="./style.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+        <script>
+            window.addEventListener("DOMContentLoaded",function() {
+                VANTA.BIRDS({
+                    el: "#vantamol",
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: false,
+                    minHeight: 200.00,
+                    minWidth: 200.00,
+                    scale: 1.00,
+                    scaleMobile: 1.00,
+                    color1: 0xff00,
+                    color2: 0xffffff,
+                    wingSpan: 28.00,
+                    separation: 40.00,
+                    alignment: 22.00,
+                    cohesion: 22.00,
+                    quantity: 2.00,
+                    backgroundAlpha: 0.00
+                });
+            });
+        </script>
     </head>
     <body>
+        <div id="vantamol"></div>
         <div id="header">
             <img src="./images/mamen.png" alt="" style="height: 10em;">
             <h1>
@@ -66,5 +91,6 @@
                 </a>
             </li>
         </ul> -->
+       
     </body>
 </html>

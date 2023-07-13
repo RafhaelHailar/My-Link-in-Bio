@@ -8,6 +8,14 @@ body,html {
     color:white;
 }
 
+#vantamol {
+    position: absolute;
+    width:100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
 #header {
     text-align: center;
     font-size: 50px;
@@ -45,7 +53,7 @@ body,html {
     max-width: 1800px;
     display: inline-block;
     font-size: 6em;
-    background-color: rgba(66,255,0,0.5);
+    background-color: rgba(196,178,178,.9);
     backdrop-filter: blur(.2em) saturate(9);
     padding: 0.8em 0;
     color: #03036f;
